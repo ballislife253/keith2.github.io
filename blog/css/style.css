@@ -1,0 +1,113 @@
+/* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
+
+        /* 
+        
+        Spacing 
+
+            - padding (shorthand and/or specific properties like padding-bottom, etc.)
+
+            - margin, (shorthand and/or specific properties like margin-top, etc.)
+
+            - letter-spacing, word-spacing, line-height
+
+            - width, max-width, min-width
+            - height, max-height, min-height
+
+        Typography 
+
+            - font-family, font-size, font-style, font-weight
+
+            - text-decoration, text-align
+
+            - color
+
+            - text-shadow, text-transform
+
+        Box, Layout and Border 
+
+            - border (shorthand and/or specific properties like border-top, border-bottom-radius, border-width, etc.)
+
+            - box-shadow
+
+            - display, float, align-items, align-content
+
+            - grid-template-columns, grid-column-gap
+
+            - transform
+
+        Other
+
+            - :nth()-child (to target specific child elements)
+
+            - :focus, :hover, :active (to target link states)
+
+            - @font-face or @import (to import typefaces)
+
+        */
+
+
+/* ------ START WRITING YOUR CODE BELOW ------ */
+/* Spacing */
+/* Padding */
+body {
+    padding: 20px;
+}
+
+/* Margin */
+nav ul li {
+    margin: 0 10px;
+}
+
+/* Typography */
+/* Font */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Font Size */
+h1 {
+    font-size: 24px;
+}
+
+/* Color */
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul li a {
+    color: #333;
+}
+
+/* Box, Layout and Border */
+/* Display and Alignment */
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-section {
+    display: flex;
+}
+
+.main-section article {
+    width: 70%;
+    padding-right: 20px;
+}
+
+.main-section aside {
+    width: 30%;
+}
+
+/* Border */
+.article-image img {
+    border: 1px solid #ccc;
+}
+
+/* Other */
+/* :hover */
+button:hover {
+    background-color: #555;
+    color: #fff;
+}
+
